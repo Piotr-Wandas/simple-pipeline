@@ -9,11 +9,11 @@ jobs:
     steps:
     # Step 1: Checkout the repository
     - name: Checkout repository
-      uses: actions/checkout@v3
+      uses: actions/checkout@v2
 
     # Step 2: Setup environment
     - name: Setup up Node.js
-      uses: actions/setup-node@v3
+      uses: actions/setup-node@v2
       with:
         node-version: '20'
 
