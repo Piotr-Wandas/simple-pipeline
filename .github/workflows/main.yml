@@ -13,9 +13,9 @@ jobs:
 
     # Step 2: Setup environment
     - name: Setup up Node.js
-      uses: actions/setup-node@v2
+      uses: actions/setup-node@v3
       with:
-        node-version: '14'
+        node-version: '20'
 
     # Step 3: Install dependiencies
     - name: Install Jest 
